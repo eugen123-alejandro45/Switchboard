@@ -5,7 +5,7 @@ public class Llamada {
     private int banda;
     private boolean local;
 
-    public Llamada(int origen, int destino, int duracion, int banda, boolean local) {
+    public Llamada(String origen, String destino, int duracion, int banda, boolean local) {
         this.origen = origen;
         this.destino = destino;
         this.duracion = duracion;
